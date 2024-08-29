@@ -10,6 +10,17 @@ variable "passphrase" {
   }
 }
 
+variable "cloudflare_account_id" {
+  description = "Cloudflare Account ID"
+  type        = string
+}
+
+variable "cloudflare_api_token" {
+  description = "Cloudflare API Token"
+  type        = string
+  sensitive   = true
+}
+
 variable "github_token" {
   description = "GitHub API Token"
   type        = string
