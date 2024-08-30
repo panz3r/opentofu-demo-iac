@@ -1,0 +1,11 @@
+# Passphrase used to encrypt '.tfstate' and plan files at rest
+passphrase = ""
+
+# GitHub Personal Access Token
+github_token = ""
+
+# Cloudflare Account ID
+cloudflare_account_id = ""
+
+# Cloudflare API Token
+cloudflare_api_token = ""
