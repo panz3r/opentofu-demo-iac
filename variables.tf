@@ -9,3 +9,9 @@ variable "passphrase" {
     error_message = "The passphare value must be at least 16 characters long."
   }
 }
+
+variable "github_token" {
+  description = "GitHub API Token"
+  type        = string
+  sensitive   = true
+}
