@@ -12,7 +12,7 @@ resource "github_repository" "demo_iac" {
   description = "Infrastructure for 'Infrastructure as Code ... Vegan-style' demo"
 
   # Visibility settings
-  visibility = "private"
+  visibility = "public"
 
   # General settings
   has_issues      = false
@@ -34,7 +34,7 @@ resource "github_repository" "demo_webapp" {
   description = "Webapp for 'Infrastructure as Code ... Vegan-style' demo"
 
   # Visibility settings
-  visibility = "private"
+  visibility = "public"
 
   # General settings
   has_issues      = false
